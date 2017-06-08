@@ -32,6 +32,7 @@ public class HelloWorldTest {
 	}
 	@AfterTest
 	public void CloseBrowser(){
+		System.out.println("Close Browser");
 		driver.close();
 	}
 
