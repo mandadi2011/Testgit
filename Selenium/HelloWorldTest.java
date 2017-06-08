@@ -34,6 +34,7 @@ public class HelloWorldTest {
 	public void CloseBrowser(){
 		System.out.println("Close Browser");
 		driver.close();
+		System.out.println("Ravi");
 	}
 
 }
