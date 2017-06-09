@@ -18,6 +18,7 @@ public class HelloWorldTest {
 		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
 		driver.get("http://www.newtours.demoaut.com/");
+		System.out.println("Launch the application in chrome");
 		
 	}
 	
