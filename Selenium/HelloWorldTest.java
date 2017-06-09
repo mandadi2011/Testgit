@@ -16,6 +16,7 @@ public class HelloWorldTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mandadi_80\\Documents\\chromedriver\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver","C:\\Users\\mandadi_80\\Documents\\geckodriver\\geckodriver.exe");
 		//driver = new FirefoxDriver();
+		System.out.println("Login to application");
 		driver = new ChromeDriver();
 		driver.get("http://www.newtours.demoaut.com/");
 		System.out.println("Launch the application in chrome");
