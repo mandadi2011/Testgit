@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 public class HelloWorldTest {
 	WebDriver driver;
+	int RR =0;
 	@BeforeTest
 	public void LaunchBrowser(){
 		System.out.println("Login");
