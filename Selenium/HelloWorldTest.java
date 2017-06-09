@@ -10,7 +10,12 @@ import org.testng.annotations.Test;
 
 public class HelloWorldTest {
 	WebDriver driver;
+<<<<<<< Updated upstream
 	int RR =120;
+=======
+	int RR =0;
+	int show = 1;
+>>>>>>> Stashed changes
 	@BeforeTest
 	public void LaunchBrowser(){
 		System.out.println("Login");
