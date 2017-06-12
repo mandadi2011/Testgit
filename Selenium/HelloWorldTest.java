@@ -11,8 +11,9 @@ import org.testng.annotations.Test;
 public class HelloWorldTest {
 	WebDriver driver;
 
-	int RR =12;
-	int show = 10;
+	int RR =1;
+	int show = 12;
+
 
 	@BeforeTest
 	public void LaunchBrowser(){
