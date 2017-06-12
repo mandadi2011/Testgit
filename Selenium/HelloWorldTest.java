@@ -16,7 +16,7 @@ public class HelloWorldTest {
 
 	@BeforeTest
 	public void LaunchBrowser(){
-		System.out.println("Login");
+		System.out.println("Login to app");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mandadi_80\\Documents\\chromedriver\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver","C:\\Users\\mandadi_80\\Documents\\geckodriver\\geckodriver.exe");
 		//driver = new FirefoxDriver();
